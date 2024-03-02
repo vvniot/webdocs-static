@@ -2,11 +2,11 @@
   "name": "webdocs-static",
   "version": "0.0.0",
   "private": true,
-  "homepage":" https://vvniot.github.io/webdocs-static/",
+  "homepage": "https://vvniot.github.io/webdocs-static/",
   "scripts": {
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
-
+    "deploy": "gh-pages -d build",
+ 
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
